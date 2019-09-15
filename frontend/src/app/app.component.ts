@@ -11,7 +11,6 @@ export class AppComponent implements OnInit {
   title: String;
 
   ngOnInit(): void {
-    this.title = "TEH";
     this.loadTitle();
   }
 
