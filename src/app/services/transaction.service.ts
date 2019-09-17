@@ -11,7 +11,7 @@ export class TransactionService {
   baseurl = 'http://sandbox-env.szf8jd6mrs.eu-west-2.elasticbeanstalk.com/transactions';
   private amountParam = '?amount=';
   constructor(private http: HttpClient) {
-    console.log("Test service constructor");
+    console.log('Test service constructor');
    }
   // Http Headers
   httpOptions = {
@@ -20,9 +20,8 @@ export class TransactionService {
     })
   }
 
-  public getTransactions(amount: number):Observable<Transaction[]>{
-    console.log("testGet");
-
+  public getTransactions(amount: number): Observable<Transaction[]> {
+    console.log('testGet');
     return this.http.get<Transaction[]>(this.baseurl + this.amountParam + amount);
   }
 }
