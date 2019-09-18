@@ -7,8 +7,8 @@ import {AppComponent} from './app.component';
 import {TransactionComponent} from './transaction/transaction.component';
 
 const routes: Routes = [
-  {path: 'playground', component: PlaygroundComponent },
-  {path: 'transaction', component: TransactionComponent}
+  {path: 'Playground', component: PlaygroundComponent },
+  {path: 'Transaction', component: TransactionComponent}
 ];
 
 @NgModule({

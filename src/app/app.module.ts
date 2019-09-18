@@ -10,13 +10,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { PlaygroundComponent } from './playground/playground.component';
 import { ErrorComponent } from './error/error.component';
 import { TransactionComponent } from './transaction/transaction.component';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PlaygroundComponent,
     ErrorComponent,
-    TransactionComponent
+    TransactionComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
