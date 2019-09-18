@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {ErrorComponent} from './error/error.component';
 import {RouterModule, Routes} from '@angular/router';
 import {PlaygroundComponent} from './playground/playground.component';
-import {AppComponent} from './app.component';
 import {TransactionComponent} from './transaction/transaction.component';
+import {NotificationComponent} from "./notification/notification.component";
 
 const routes: Routes = [
   {path: 'Playground', component: PlaygroundComponent },
-  {path: 'Transaction', component: TransactionComponent}
+  {path: 'Transaction', component: TransactionComponent},
+  {path: 'Notification', component: NotificationComponent}
 ];
 
 @NgModule({

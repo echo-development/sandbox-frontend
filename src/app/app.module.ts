@@ -11,6 +11,7 @@ import { PlaygroundComponent } from './playground/playground.component';
 import { ErrorComponent } from './error/error.component';
 import { TransactionComponent } from './transaction/transaction.component';
 import { NavComponent } from './nav/nav.component';
+import { NotificationComponent } from './notification/notification.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NavComponent } from './nav/nav.component';
     PlaygroundComponent,
     ErrorComponent,
     TransactionComponent,
-    NavComponent
+    NavComponent,
+    NotificationComponent
   ],
   imports: [
     BrowserModule,
