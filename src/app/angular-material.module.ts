@@ -4,6 +4,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { MatInputModule, MatButtonModule, MatFormFieldModule } from '@angular/material';
 import {MatTabsModule} from '@angular/material/tabs';
+import {MatRadioButton, MatRadioModule} from "@angular/material/radio";
 
 @NgModule({
   imports: [
@@ -14,6 +15,7 @@ import {MatTabsModule} from '@angular/material/tabs';
     MatInputModule,
     MatButtonModule,
     MatTabsModule,
+    MatRadioModule
   ],
   exports: [
     MatTableModule,
@@ -22,7 +24,8 @@ import {MatTabsModule} from '@angular/material/tabs';
     MatSortModule,
     MatInputModule,
     MatButtonModule,
-    MatTabsModule
+    MatTabsModule,
+    MatRadioModule
   ]
 })
 

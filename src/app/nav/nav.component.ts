@@ -16,6 +16,7 @@ export class NavComponent {
       this.links.push(routePath);
       console.log("Test")
     }
+
     this.activeLink = this.links[0];
   }
 }

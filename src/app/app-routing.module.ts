@@ -8,7 +8,8 @@ import {NotificationComponent} from "./notification/notification.component";
 const routes: Routes = [
   {path: 'Playground', component: PlaygroundComponent },
   {path: 'Transaction', component: TransactionComponent},
-  {path: 'Notification', component: NotificationComponent}
+  {path: 'Notification', component: NotificationComponent},
+  {path: '', redirectTo: 'Playground', pathMatch: 'full'}
 ];
 
 @NgModule({
